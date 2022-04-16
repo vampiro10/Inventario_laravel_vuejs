@@ -18,7 +18,7 @@ class Productos extends Migration
            $table->string('sku');
            $table->string('nombre');
            $table->integer('id_catego');
-           $table->text(('descripcion');
+           $table->text('descripcion');
            $table->float('precio');
            $table->integer('cantidad');
            $table->string('estado');
