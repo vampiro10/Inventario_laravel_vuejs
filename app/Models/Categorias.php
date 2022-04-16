@@ -9,6 +9,10 @@ class Categorias extends Model
 {
     use HasFactory;
     
+    protected $fillable = [
+        'id_produ', 'nombre',
+    ];
+    
     /**
      * Get the phone associated with the user.
      */
